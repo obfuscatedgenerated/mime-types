@@ -13,7 +13,7 @@
  */
 
 var db = require('mime-db')
-var extname = require('path').extname
+import { extname } from "node:path";
 
 /**
  * Module variables.
